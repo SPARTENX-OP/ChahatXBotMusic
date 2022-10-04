@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "13237440"))
-API_HASH = getenv("API_HASH", "561fe5c7cdd57946611526dfa35b8d71")
+API_ID = int(getenv("API_ID", "13641413"))
+API_HASH = getenv("API_HASH", "1bc75e21e85f7e824f2bc82d9be5f0a4")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5787361321:AAHXOHmX1ZcccR70KbdvPbfwTljretf2PyU")
+BOT_TOKEN = getenv("BOT_TOKEN", "5682916471:AAF9vQMsi1IEvQLl4vJTicaXL8pxhzbrp0w")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Devarora0987:#Dev12345@cluster0.razivtc.mongodb.net/?retryWrites=true&w=majority")
 
@@ -22,9 +22,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001758217306"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001835443285"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⎝⎝✧SƤคr†an X 𝑀uรic✧⎠⎠™☆࿐ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🥀🎼𓆩 ≛⎯⳰͢⃝🥀ᴹⁱˢˢ★Cђ͢͢aђaτ★🥀🕊️⃝🎼🥀")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1355744138").split())
@@ -36,16 +36,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AnonymousR1025/AnonXMusic",
+    "https://github.com/LEGEND-LX/Legend_MusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/+83WSfJMunnYwZDdl")
+    "SUPPORT_CHANNEL", "https://t.me/SpartanBot_XD")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/+83WSfJMunnYwZDdl")
+    "SUPPORT_GROUP", "https://t.me/SpartanBot_xD")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQC1ZyHYygHCj5AlybkXgcH1oIYbImyrIH2tyq4ikluD5NM6kblgxrsZkN26G_1wnA72CC_8p4w1CXEtkV_PgGXPvr6C5xeNU6XC04xdWzYdKzrfZyANC5Tf_ZMpuGb7yFpBB3iaow8PNr7tzMN2yjCaC2inZygs7GXRXt_HuIyTy6I99BKRnrpZ_LEWcAVS8PQ4lO3Zb-fY-fhvaYahrOtAOCvKokPudR9s_T2uzg47zjEF5oaT6CVeIE9S7Iz45s5TvpoWUzsA9NxEiGdcPNOftzY9zxbEREcLzv1_N2PlPZNFtbe-cLw2LzkgycAGK-ucZ5Uxqu-iz8wAUSW_E94tUM8DigA")
+STRING1 = getenv("STRING_SESSION", "BQA9Ph6eZZ-7-5RxxdPgnHgdFNYOlBRx4dx5tNSoUq_u1TmJbxRqunWUlUCjszfCU7Yj_56u_tmINvzT624VN52wjdFHj5hY0XHTZ4TnrI6MP3-Vh7E64NiI7u6MUlN_TkTjKrdYzBsa87I_gr0ySgFEabr6BOVDjtxu8GIl6tS7LnFL9YX8SLj6UMNnWkAnNNHrXYFeteJyqSfsyJDOE4vYnvKYh_4_77V3TbW-aCxNLvEVuKLpj1x27hA-O2pGVu0RoDIoRI7kOdjaX-IpLJimw2DR9xINSlCpeEUm5kA5QKCiYOXohjGad21rni_TmUOilQssmEpiCslSbUxU-hCDAAAAAT4O7RwA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/d2e8adb22f0c13e81645f.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/13bac37ecf17653dec55f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/d2e8adb22f0c13e81645f.jpg",
+    "https://telegra.ph/file/13bac37ecf17653dec55f.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
