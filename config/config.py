@@ -10,12 +10,12 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "13641413"))
 API_HASH = getenv("API_HASH", "1bc75e21e85f7e824f2bc82d9be5f0a4")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5682916471:AAGEblmWMtmftMwHcdbCSYYp3WHcXeQd0IM")
+BOT_TOKEN = getenv("BOT_TOKEN", "5692969819:AAHyXu0pH2d76vn3QBtWqxUQhzj7-cDygxk")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Devarora0987:#Dev12345@cluster0.razivtc.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "5429")
+    getenv("DURATION_LIMIT", "6500")
 )
 
 SONG_DOWNLOAD_DURATION = int(
@@ -94,7 +94,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "anonxlogs.txt"
+LOG_FILE_NAME = "legendxlogs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
