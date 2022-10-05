@@ -19,7 +19,7 @@ async def varsFunc(client, message):
     )
     v_limit = await get_video_limit()
     bot_name = config.MUSIC_BOT_NAME
-    up_r = f"[ʀᴇᴩᴏ]({config.UPSTREAM_REPO})"
+    up_r = f"[Buy ʀᴇᴩᴏ](t.me/ll_OFFICIAL_LEGENDBOY_ll)"
     up_b = config.UPSTREAM_BRANCH
     auto_leave = config.AUTO_LEAVE_ASSISTANT_TIME
     yt_sleep = config.YOUTUBE_DOWNLOAD_EDIT_SLEEP
@@ -50,7 +50,7 @@ async def varsFunc(client, message):
     if not config.GITHUB_REPO:
         git = "ɴᴏ"
     else:
-        git = f"[ʀᴇᴩᴏ]({config.GITHUB_REPO})"
+        git = f"[Buy ʀᴇᴩᴏ](t.me/ll_OFFICIAL_LEGENDBOY_ll)"
     if not config.START_IMG_URL:
         start = "ɴᴏ"
     else:
