@@ -10,24 +10,24 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="★彡[ADD ME TO YOUƦ GƦOUᴩ]彡★",
+                text="🥀🎼ADD ME TO YOUƦ GƦOUᴩ🎼🥀",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="★彡[ʜᴇʟᴘ]彡★",
+                text="🥀🎼ʜᴇʟᴘ🎼🥀",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="★彡[ꜱᴇᴛᴛɪɴɢꜱ]彡★", callback_data="settings_helper"
+                text="🥀🎼ꜱᴇᴛᴛɪɴɢꜱ🎼🥀", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="★彡[ᴏᴡɴᴇʀ]彡★", user_id=OWNER),
+                text="🥀🎼ᴏᴡɴᴇʀ🎼🥀", user_id=OWNER),
             InlineKeyboardButton(
-                text="★彡[ꜱᴜᴘᴘᴏʀᴛ]彡★", url=f"{config.SUPPORT_GROUP}"
+                text="🥀🎼ꜱᴜᴘᴘᴏʀᴛ🎼🥀", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -38,24 +38,24 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="★彡[ADD ME TO YOUƦ GƦOUᴩ]彡★",
+                text="🥀🎼ADD ME TO YOUƦ GƦOUᴩ🎼🥀",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="★彡[ʜᴇʟᴘ]彡★", callback_data="settings_back_helper"
+                text="🥀🎼ʜᴇʟᴘ🎼🥀", callback_data="settings_back_helper"
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
+            InlineKeyboardButton(text="🥀🎼ᴍᴀɪɴᴛᴀɪɴᴇʀ🎼🥀", user_id=OWNER),
             InlineKeyboardButton(
-                text="★彡[ꜱᴜᴘᴘᴏʀᴛ]彡★", url=f"{config.SUPPORT_GROUP}"
+                text="🥀🎼ꜱᴜᴘᴘᴏʀᴛ🎼🥀", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="꧁𓊈𒆜🆂ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜʏ𒆜𓊉꧂", url=f"https://t.me/ll_OFFICIAL_LEGENDBOY_ll"
+                    text="🥀🎼𓊈𒆜🆂ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜʏ🎼🥀𒆜𓊉", url=f"https://t.me/ll_OFFICIAL_LEGENDBOY_ll"
                 )
         ],
      ]
