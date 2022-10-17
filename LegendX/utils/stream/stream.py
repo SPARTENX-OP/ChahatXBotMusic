@@ -16,7 +16,7 @@ from LegendX.utils.exceptions import AssistantErr
 from LegendX.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from LegendX.utils.inline.playlist import close_markup
-from LegendX.utils.pastebin import Legendbin
+from LegendX.utils.pastebin import Anonbin
 from LegendX.utils.stream.queue import put_queue, put_queue_index
 from LegendX.utils.thumbnails import gen_thumb
 
@@ -120,7 +120,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await Legendbin(msg)
+            link = await Anonbin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
