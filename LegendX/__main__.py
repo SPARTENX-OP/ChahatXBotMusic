@@ -50,10 +50,10 @@ async def init():
         "Necessary Modules Imported Successfully."
     )
     await userbot.start()
-    await Anon.start()
+    await Legend.start()
     try:
-        await Anon.stream_call(
-            "https://telegra.ph/file/8d5db123638c2f6bb6ce4.mp4"
+        await Legend.stream_call(
+            "https://telegra.ph/file/df9a7794a9675b687cc41.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("LegendX").error(
@@ -62,8 +62,8 @@ async def init():
         sys.exit()
     except:
         pass
-    await Anon.decorators()
-    LOGGER("LegendX").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @anonymous_was_bot")
+    await Legend.decorators()
+    LOGGER("LegendX").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @ll_OFFICIAL_LEGENDBOY_ll")
     await idle()
 
 
