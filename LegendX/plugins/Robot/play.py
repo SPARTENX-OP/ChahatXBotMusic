@@ -12,7 +12,7 @@ from config import BANNED_USERS, lyrical
 from strings import get_command
 from LegendX import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from LegendX.core.call import Anon
+from LegendX.core.call import Legend
 from LegendX.utils import seconds_to_min, time_to_seconds
 from LegendX.utils.channelplay import get_channeplayCB
 from LegendX.utils.database import is_video_allowed
@@ -577,7 +577,7 @@ async def play_music(client, CallbackQuery, _):
 
 
 @app.on_callback_query(
-    filters.regex("AnonymousAdmin") & ~BANNED_USERS
+    filters.regex("LegendXAdmin") & ~BANNED_USERS
 )
 async def anonymous_check(client, CallbackQuery):
     try:
@@ -590,7 +590,7 @@ async def anonymous_check(client, CallbackQuery):
 
 
 @app.on_callback_query(
-    filters.regex("AnonPlaylists") & ~BANNED_USERS
+    filters.regex("LegendPlaylists") & ~BANNED_USERS
 )
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
