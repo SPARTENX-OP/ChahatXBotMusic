@@ -5,7 +5,7 @@ import config
 from config import BANNED_USERS
 from strings import get_command
 from LegendX import YouTube, app
-from LegendX.core.call import Anon
+from LegendX.core.call import Legend
 from LegendX.misc import db
 from LegendX.utils.database import get_loop
 from LegendX.utils.decorators import AdminRightsCheck
@@ -60,7 +60,7 @@ async def skip(cli, message: Message, _, chat_id):
                                             message.from_user.first_name
                                         )
                                     )
-                                    await Anon.stop_stream(chat_id)
+                                    await Legend.stop_stream(chat_id)
                                 except:
                                     return
                                 break
