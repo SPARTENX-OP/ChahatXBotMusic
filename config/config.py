@@ -77,11 +77,11 @@ CLEANMODE_DELETE_MINS = int(
 )
 
 TG_AUDIO_FILESIZE_LIMIT = int(
-    getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600")
+    getenv("TG_AUDIO_FILESIZE_LIMIT", "1048578998")
 )
 
 TG_VIDEO_FILESIZE_LIMIT = int(
-    getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824")
+    getenv("TG_VIDEO_FILESIZE_LIMIT", "10737418899")
 )
 # https://www.gbmb.org/mb-to-bytes
 
@@ -94,7 +94,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "anonxlogs.txt"
+LOG_FILE_NAME = "logs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
