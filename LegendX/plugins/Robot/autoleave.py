@@ -3,7 +3,7 @@ from datetime import datetime
 
 import config
 from LegendX import app
-from LegendX.core.call import Anon, autoend
+from LegendX.core.call import Legend, autoend
 from LegendX.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
