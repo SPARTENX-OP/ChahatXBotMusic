@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ll_ll_LegendHacker_IN_ll_ll")
+    "SUPPORT_CHANNEL", "https://t.me/innocentop")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ll_OFFICIAL_LEGENDBOY_ll")
+    "SUPPORT_GROUP", "https://t.me/innocentop")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/abffe93e856ac4280aa7e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/abffe93e856ac4280aa7e.jpg",
+    "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
