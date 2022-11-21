@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1807")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001570388289"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001551002386"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🥀🎼𓆩 ≛⎯⳰͢⃝🥀𝗜𝗡𝗡𝗢𝗖𝗘𝗡𝗧 ✘𓊉🕊️⃝🎼🥀")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5697261678").split())
+    map(int, getenv("OWNER_ID", "5568456199").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/innocentop")
+    "SUPPORT_CHANNEL", "https://t.me/+5Z_gWa9nX25hY2M1")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/innocentop")
+    "SUPPORT_GROUP", "https://t.me/+5Z_gWa9nX25hY2M1")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQAXTMf7Bd2GRLik31eLMnbLgXzAHiTAcHnPzhRUpawETztVsHH0qEHLsfxLETCaD5Mv3IRhNR8ro0uP_lq9jXNun3RCjLusRZ27NlrHyb8PJM1JPf0PCyOalGzGT7ZY-_LVQ91eaQkdEbWOX4JmMkGFsPwRH6Z5cKnxtX3SSfIyZzqTIbzb_B1Dv-Va6ukab3M-li_ImvWDyajKS99I50PW8_4mlFLWKrwOZKs6IoWp9pUglRh0E_Ui-KfIDzljNyWSzidoED1h5rBRJxwnX6TbXSxzCLQ1Qyzkt8zkZ8gMt1K8VsA6gz-nLJZza0YSRjbb3raJlHGrz2wIh0hnkGdPeH9LHgA")
+STRING1 = getenv("STRING_SESSION", "BQBp1MruobeQi6PYcnGvvtn-IWFR3NwT_5La44qTgrgO64G7yAy2GjQbn34kSrNYDkUwq2zR-G7poOhLEo7Xbn-VkDfTScPTGeY4-ppppspKoucEUMSdXuE6cY3Ob2FrP0vKFPGwzRjQj60fWEAKPd4G6S0esds-DYouNc5LlXoJ_E1gXK0ZQHqEmJ6Bg-m1lxSeWLynIu7ENUyqgyw3lp_gC96o8I6nm7aihwArIyaz-_n7KF9QLTqyUMuI2w2upjF8f32SgnoLirzKo-0C1dyvbA-2Hvwmmzm880pSodkR1RmT0GJd4bWYWypHJ1bcElAoohTNjKld-_TSWR-zpXMVAAAAAWNYNK8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
