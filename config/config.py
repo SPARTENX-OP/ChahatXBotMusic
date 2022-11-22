@@ -22,9 +22,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1807")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001551002386"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001684422477"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🥀🎼𓆩 ≛⎯⳰͢⃝🥀𝗜𝗡𝗡𝗢𝗖𝗘𝗡𝗧 ✘𓊉🕊️⃝🎼🥀")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🥀🎼𓆩 ≛⎯⳰͢⃝🥀�𝐂𝐊 𝐒𝐓𝐀𝐑 ❜� ✘𓊉🕊️⃝🎼🥀")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5568456199").split())
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQBp1MruobeQi6PYcnGvvtn-IWFR3NwT_5La44qTgrgO64G7yAy2GjQbn34kSrNYDkUwq2zR-G7poOhLEo7Xbn-VkDfTScPTGeY4-ppppspKoucEUMSdXuE6cY3Ob2FrP0vKFPGwzRjQj60fWEAKPd4G6S0esds-DYouNc5LlXoJ_E1gXK0ZQHqEmJ6Bg-m1lxSeWLynIu7ENUyqgyw3lp_gC96o8I6nm7aihwArIyaz-_n7KF9QLTqyUMuI2w2upjF8f32SgnoLirzKo-0C1dyvbA-2Hvwmmzm880pSodkR1RmT0GJd4bWYWypHJ1bcElAoohTNjKld-_TSWR-zpXMVAAAAAWNYNK8A")
+STRING1 = getenv("STRING_SESSION", "AQBl_zRP3GF26mSDGblbUA_ljFSusVZ5VMOFVD5nDZ8fDfeiZt1gMAbqwnXK_GRr_UDsaS_LkWNmk2iBV45TUCBdPMmjV2Sdo4nygb1CM-HYqv75jhh30nz0NJmPQT4243B-neP1-GgWcqa7lvPPeFQet1H93waL26jhVJJte8sa4bdHQPgZQBRJvNnkZDML_K2rE-BK2bBLsv0rPojnxhT4dtzQCdyL4fjz5gaRZTVHceZa5ZPeB0KFOhihXC_iKbwgGz7iVxwMZp4a0mVXAuy1WjcoVj0-dafyt_zHkSQ-GxcB21IYA1aLM6BUohgyf1xB_FG-91IGb0Xld_5-4yyQAAAAAUl-KmIA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
