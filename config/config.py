@@ -27,7 +27,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001684422477"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🥀🎼𓆩 ≛⎯⳰͢⃝🥀�𝐂𝐊 𝐒𝐓𝐀𝐑 ❜� ✘𓊉🕊️⃝🎼🥀")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5568456199").split())
+    map(int, getenv("OWNER_ID", "5533285423").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg",
+    "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -122,17 +122,17 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg",
+    "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg",
+    "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg",
+    "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg",
 )
 
 STREAM_IMG_URL = getenv(
@@ -214,7 +214,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg":
+    if STATS_IMG_URL != "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
