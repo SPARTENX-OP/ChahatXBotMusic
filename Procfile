@@ -1,1 +1,1 @@
-worker : python3 -m LegendX
+worker: python3 -m LegendX
